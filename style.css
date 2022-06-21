@@ -129,3 +129,8 @@ li, #timerDisplay {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-bottom: 0;
 }
+
+.high-score {
+    font-size: 3rem;
+    color: beige;
+}

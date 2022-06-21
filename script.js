@@ -174,7 +174,6 @@ saveHighScore = e => {
     highScores.splice(5)
 
     localStorage.setItem('highScores', JSON.stringify(highScores))
-    window.location.assign('/')
 }
 
 var highScoresList = document.querySelector('#highScoresList')
@@ -183,5 +182,5 @@ var highScores = JSON.parse(localStorage.getItem('highScores')) || []
 highScoresList.innerHTML =
 highScores.map(score => {
     return `<li class="high-score">${score.name} - ${score.score}</li>`
-}).join('')
+})
 
