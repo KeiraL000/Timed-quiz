@@ -1,0 +1,131 @@
+:root {
+    background-color: rgb(49, 49, 49);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    color: beige;
+}
+
+h1 {
+    font-size: 4rem;
+    color: beige;
+    margin-bottom: 3rem;
+}
+
+h2 {
+    font-size: 4rem;
+    margin-bottom: 4rem;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70rem;
+    margin: 0 auto;
+}
+
+#button {
+    font-size: 2rem;
+    padding: 2rem 0;
+    width: 25rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: black;
+    background-color: darkolivegreen;
+}
+
+
+#saveScoreBtn {
+    font-size: 2rem;
+    padding: 2rem 0;
+    width: 15rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    color:black;
+    background-color: darkslateblue;
+}
+
+#button:hover, #saveScoreBtn:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.choice-container, .choice-container2, .choice-container3, .choice-container4  {
+    display: flex;
+    margin-bottom: 0.8rem;
+    width: 100%;
+    border-radius: 4px;
+    background-color: darkolivegreen;
+    font-size: 3rem;
+    min-width: 80rem;
+}
+
+.choice-container:hover, .choice-container2:hover, .choice-container3:hover, .choice-container4:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.choice-prefix {
+    padding: 2rem 2.5rem;
+    color: beige;
+}
+
+.choice-text {
+    padding: 2rem;
+    width: 100%;
+}
+
+.correct {
+    background-color: green;
+}
+
+.incorrect {
+    background-color: red;
+}
+
+#hud {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hud-prefix {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.hud-main-text {
+    text-align: center;
+}
+
+#end-text {
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+input {
+    margin-bottom: 1rem;
+    width: 20rem;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    border: none;
+}
+
+li, #timerDisplay {
+    font-size: 3rem;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 0;
+}
